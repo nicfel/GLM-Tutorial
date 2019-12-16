@@ -224,6 +224,7 @@ This predictor denotes if two locations are located next to each other.
 To add the effective population size predictor, do the same in the *Ne GLM* box.
 There, add the predictors `Ne_cases.csv` and `Ne_Pdens.csv`.
 The predictor Ne_cases denotes the number of weekly cases.
+The timepoint 0 is always the most recent time interval and earlier time intervals are denotes with 1,2,3.....
 These cases are not yet log-standardized and we therefore have to click the transform button next to the predictor name.
 This will to the log-standardization for us.
 After doing so, click the *Update Settings* button.
@@ -239,7 +240,7 @@ At the end, the setup should look like the following:
 	<figcaption>Figure 3: Settings of the predictors.</figcaption>
 </figure>
 
-
+For those interested, the file `timevariantexample_migration_greatCircleDistances.csv` gives an example of how to setup time-varying migration rate predictors
 
 
 ### Specify the priors (Priors)
