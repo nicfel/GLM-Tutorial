@@ -1,9 +1,9 @@
 ---
 author: Nicola F. Müller
-level: Professional
+level: Intermediate
 title: MASCOT-GLM v2.0.0 Tutorial
 subtitle: Inferring Predictors of effective population sizes and migration rates by using MASCOT
-beastversion: 2.5
+beastversion: 2.6
 tracerversion: 1.7.0
 figtreeversion: 1.4.2
 ---
